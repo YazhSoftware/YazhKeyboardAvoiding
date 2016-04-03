@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		943F4D991CB11F5400DA5E85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4D981CB11F5400DA5E85 /* main.m */; };
 		943F4D9C1CB11F5400DA5E85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4D9B1CB11F5400DA5E85 /* AppDelegate.m */; };
-		943F4DB71CB1231000DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB01CB1231000DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m */; };
-		943F4DB81CB1231000DA5E85 /* YazhKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB21CB1231000DA5E85 /* YazhKeyboardAvoidingCollectionView.m */; };
 		943F4DB91CB1231000DA5E85 /* YazhKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB41CB1231000DA5E85 /* YazhKeyboardAvoidingScrollView.m */; };
 		943F4DBA1CB1231000DA5E85 /* YazhKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB61CB1231000DA5E85 /* YazhKeyboardAvoidingTableView.m */; };
 		943F4DC31CB1232400DA5E85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943F4DBB1CB1232400DA5E85 /* Assets.xcassets */; };
@@ -22,6 +20,16 @@
 		943F4DF01CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F4DE91CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework */; };
 		943F4DF11CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 943F4DE91CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		943F4DF91CB139A200DA5E85 /* YazhKeyboardAvoidingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F4DD01CB1233E00DA5E85 /* YazhKeyboardAvoidingKit.h */; };
+		943F4DFF1CB13F3900DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F4DAF1CB1231000DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.h */; };
+		943F4E001CB13F3D00DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB01CB1231000DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m */; };
+		943F4E011CB13F4400DA5E85 /* YazhKeyboardAvoidingCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F4DB11CB1231000DA5E85 /* YazhKeyboardAvoidingCollectionView.h */; };
+		943F4E021CB13F4700DA5E85 /* YazhKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB21CB1231000DA5E85 /* YazhKeyboardAvoidingCollectionView.m */; };
+		943F4E031CB13F6100DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB01CB1231000DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m */; };
+		943F4E041CB13F6800DA5E85 /* YazhKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB21CB1231000DA5E85 /* YazhKeyboardAvoidingCollectionView.m */; };
+		943F4E051CB13F6A00DA5E85 /* YazhKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F4DB31CB1231000DA5E85 /* YazhKeyboardAvoidingScrollView.h */; };
+		943F4E061CB13F6D00DA5E85 /* YazhKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB41CB1231000DA5E85 /* YazhKeyboardAvoidingScrollView.m */; };
+		943F4E071CB13F7000DA5E85 /* YazhKeyboardAvoidingTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F4DB51CB1231000DA5E85 /* YazhKeyboardAvoidingTableView.h */; };
+		943F4E081CB13F7200DA5E85 /* YazhKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 943F4DB61CB1231000DA5E85 /* YazhKeyboardAvoidingTableView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -173,7 +181,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943F4E051CB13F6A00DA5E85 /* YazhKeyboardAvoidingScrollView.h in Headers */,
+				943F4E071CB13F7000DA5E85 /* YazhKeyboardAvoidingTableView.h in Headers */,
+				943F4DFF1CB13F3900DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.h in Headers */,
 				943F4DF91CB139A200DA5E85 /* YazhKeyboardAvoidingKit.h in Headers */,
+				943F4E011CB13F4400DA5E85 /* YazhKeyboardAvoidingCollectionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,13 +292,13 @@
 			files = (
 				943F4DC71CB1232400DA5E85 /* YazhKATableViewController.m in Sources */,
 				943F4DB91CB1231000DA5E85 /* YazhKeyboardAvoidingScrollView.m in Sources */,
-				943F4DB81CB1231000DA5E85 /* YazhKeyboardAvoidingCollectionView.m in Sources */,
 				943F4DC51CB1232400DA5E85 /* YazhKACollectionViewController.m in Sources */,
+				943F4E041CB13F6800DA5E85 /* YazhKeyboardAvoidingCollectionView.m in Sources */,
 				943F4D9C1CB11F5400DA5E85 /* AppDelegate.m in Sources */,
 				943F4DBA1CB1231000DA5E85 /* YazhKeyboardAvoidingTableView.m in Sources */,
 				943F4DC61CB1232400DA5E85 /* YazhKAScrollViewController.m in Sources */,
-				943F4DB71CB1231000DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m in Sources */,
 				943F4D991CB11F5400DA5E85 /* main.m in Sources */,
+				943F4E031CB13F6100DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943F4E021CB13F4700DA5E85 /* YazhKeyboardAvoidingCollectionView.m in Sources */,
+				943F4E061CB13F6D00DA5E85 /* YazhKeyboardAvoidingScrollView.m in Sources */,
+				943F4E001CB13F3D00DA5E85 /* UIScrollView+YazhKeyboardAvoidingAdditions.m in Sources */,
+				943F4E081CB13F7200DA5E85 /* YazhKeyboardAvoidingTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
