@@ -21,6 +21,7 @@
 		943F4DCD1CB1233000DA5E85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943F4DCA1CB1233000DA5E85 /* Main.storyboard */; };
 		943F4DF01CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 943F4DE91CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework */; };
 		943F4DF11CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 943F4DE91CB1240000DA5E85 /* YazhKeyboardAvoidingKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		943F4DF91CB139A200DA5E85 /* YazhKeyboardAvoidingKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 943F4DD01CB1233E00DA5E85 /* YazhKeyboardAvoidingKit.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +173,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943F4DF91CB139A200DA5E85 /* YazhKeyboardAvoidingKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
