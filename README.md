@@ -1,3 +1,11 @@
+YazhKeyboardAvoiding
+=========
+
+![](https://img.shields.io/cocoapods/v/YazhKeyboardAvoiding.svg)
+![](https://img.shields.io/badge/carthage-compatible-brightgreen.svg)
+![](https://img.shields.io/cocoapods/p/YazhKeyboardAvoiding.svg)
+
+
 Installation
 ------------
 
