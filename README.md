@@ -33,7 +33,7 @@ These classes currently adjust the contentInset parameter to avoid content movin
 Licence (Zlib)
 --------------
 
-Copyright (c) 2013 Michael Tyson
+Copyright (c) 2013 YazhSoft
 
 This software is provided 'as-is', without any express or implied
 warranty. In no event will the authors be held liable for any damages
@@ -57,5 +57,3 @@ freely, subject to the following restrictions:
 
 ------------
 
-Michael Tyson, A Tasty Pixel  
-michael@atastypixel.com
