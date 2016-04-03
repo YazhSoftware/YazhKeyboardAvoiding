@@ -2,8 +2,8 @@
 //  YazhKeyboardAvoidingKit.h
 //  YazhKeyboardAvoidingKit
 //
-//  Created by Jerson Michael Perpetua on 12/2/15.
-//  Copyright © 2015 A Tasty Pixel. All rights reserved.
+//  Created by Yazh on 12/2/15.
+//  Copyright © 2015 YazhSoft. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
