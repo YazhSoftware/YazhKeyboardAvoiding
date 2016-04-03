@@ -1,3 +1,18 @@
+Installation
+------------
+
+With Cocoapods:
+
+```
+pod 'YazhKeyboardAvoiding'
+```
+
+With Carthage:
+
+```
+github "YazhSoftware/YazhKeyboardAvoiding"
+```
+
 YazhKeyboardAvoiding
 ==================
 
